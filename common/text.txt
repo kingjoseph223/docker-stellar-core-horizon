@@ -1,0 +1,50 @@
+Python 2.7 (trunk, Sep 16 2019, 09:26:29) 
+[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4)] on unknown
+Type "help", "copyright", "credits" or "license" for more information.>>> Python 2.7 (trunk, Sep 16 2019, 09:26:29) 
+[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4)] on unknown
+Type "help", "copyright", "credits" or "license" for more information.>>> 
+>>> {
+      "build" : "v11.1.0",
+      "history_failure_rate" : "0",
+      "ledger" : {
+         "age" : 3,
+         "baseFee" : 100,
+         "baseReserve" : 5000000,
+         "closeTime" : 1560350852,
+         "hash" : "40d884f6eb105da56bea518513ba9c5cda9a4e45ac824e5eac8f7262c713cc60",
+         "maxTxSetSize" : 1000,
+         "num" : 24311579,
+         "version" : 11
+      },
+      "network" : "Public Global Stellar Network ; September 2015",
+      "peers" : {
+         "authenticated_count" : 5,
+         "pending_count" : 0
+      },
+      "protocol_version" : 10,
+      "quorum" : {
+         "qset" : {
+            "agree" : 6,
+            "delayed" : 0,
+            "disagree" : 0,
+            "fail_at" : 2,
+            "hash" : "d5c247",
+            "ledger" : 24311579,
+            "missing" : 1,
+            "phase" : "EXTERNALIZE"
+         },
+         "transitive" : {
+            "critical" : null,
+            "intersection" : true,
+            "last_check_ledger" : 24311536,
+            "node_count" : 21
+         }
+      },
+      "startedOn" : "2019-06-10T17:40:29Z",
+      "state" : "Catching up",
+      "status" : [ "Catching up: downloading and verifying buckets: 30/30 (100%)" ]
+   }... 
+... 
+
+ *My favorite app::pythoni  https://itunes.apple.com/app/id493505744?mt=8
+Other's Tutorals:http://iii9i.com

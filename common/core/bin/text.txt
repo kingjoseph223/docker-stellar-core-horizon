@@ -1,0 +1,352 @@
+Python 2.7 (trunk, Sep 16 2019, 09:26:29) 
+[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4)] on unknown
+Type "help", "copyright", "credits" or "license" for more information.>>> Python 2.7 (trunk, Sep 16 2019, 09:26:29) 
+[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4)] on unknown
+Type "help", "copyright", "credits" or "license" for more information.>>> 
+>>> {
+      "build" : "v11.1.0",
+      "history_failure_rate" : "0",
+      "ledger" : {
+         "age" : 3,
+         "baseFee" : 100,
+         "baseReserve" : 5000000,
+         "closeTime" : 1560350852,
+         "hash" : "40d884f6eb105da56bea518513ba9c5cda9a4e45ac824e5eac8f7262c713cc60",
+         "maxTxSetSize" : 1000,
+         "num" : 24311579,
+         "version" : 11
+      },
+      "network" : "Public Global Stellar Network ; September 2015",
+      "peers" : {
+         "authenticated_count" : 5,
+         "pending_count" : 0
+      },
+      "protocol_version" : 10,
+      "quorum" : {
+         "qset" : {
+            "agree" : 6,
+            "delayed" : 0,
+            "disagree" : 0,
+            "fail_at" : 2,
+            "hash" : "d5c247",
+            "ledger" : 24311579,
+            "missing" : 1,
+            "phase" : "EXTERNALIZE"
+         },
+         "transitive" : {
+            "critical" : null,
+            "intersection" : true,
+            "last_check_ledger" : 24311536,
+            "node_count" : 21
+         }
+      },
+      "startedOn" : "2019-06-10T17:40:29Z",
+      "state" : "Catching up",
+      "status" : [ "Catching up: downloading and verifying buckets: 30/30 (100%)" ]
+   }... " build  " - "v11.1.0"
+"history_failure_rate" : "0",
+      "ledger" : 
+         "age" : "3"
+         "baseFee" : "100"
+         "baseReserve" : "5000000"
+         "closeTime" : "1560350852,"
+         "hash" : "40d884f6eb105da56bea518513ba9c5cda9a4e45ac824e5eac8f7262c713cc60",
+         "maxTxSetSize" : "1000"
+         "num" : "24311579"
+         "version" : "11"
+      "network" : "Public Global Stellar Network ; September 2015",
+      "peers" 
+         "authenticated_count" : "5"
+         "pending_count" : "0"
+      "protocol_version" : "10"
+      "quorum" : 
+         "qset" : 
+            "agree" : "6"
+            "delayed" : "0"
+            "disagree" : "0"
+            "fail_at" : "2"
+            "hash" : "d5c247",
+            "ledger" : "24311579"
+            "missing" : 1,
+            "phase" : "EXTERNALIZE"
+            "critical"
+             "24311536"
+               "21"
+      "state" : "Catching up",
+      "status" : "Catching up: downloading and verifying buckets: 30/30 (100%)" 
+      " build  " - "v11.1.0"
+"history_failure_rate" : "0",
+      "ledger" : 
+         "age" : "3"
+         "baseFee" : "100"
+         "baseReserve" : "5000000"
+         "closeTime" : "1560350852,"
+         "hash" : "40d884f6eb105da56bea518513ba9c5cda9a4e45ac824e5eac8f7262c713cc60",
+         "maxTxSetSize" : "1000"
+         "num" : "24311579"
+         "version" : "11"
+      "network" : "Public Global Stellar Network ; September 2015",
+      "peers" 
+         "authenticated_count" : "5"
+         "pending_count" : "0"
+      "protocol_version" : "10"
+      "quorum" : 
+         "qset" : 
+            "agree" : "6"
+            "delayed" : "0"
+            "disagree" : "0"
+            "fail_at" : "2"
+            "hash" : "d5c247",
+            "ledger" : "24311579"
+            "missing" : 1,
+            "phase" : "EXTERNALIZE"
+            "critical"
+             "24311536"
+               "21"
+      "state" : "Catching up",
+      "status" : "Catching up: downloading and verifying buckets: 30/30 (100%)" s.source_files  = "stellarsdk/stellarsdk/**/*.{h,m,swift,c}"
+  "s.exclude_files = "Classes/Exclude"
+HTTP_PORT=11626
+PUBLIC_HTTP_PORT=true
+RUN_STANDALONE=true
+
+NETWORK_PASSPHRASE="Standalone Network ; February 2017"
+
+NODE_SEED="SDQVDISRYN2JXBS7ICL7QJAEKB3HWBJFP2QECXG7GZICAHBK4UNJCWK2 self"
+NODE_IS_VALIDATOR=true
+
+#DATABASE="postgresql://dbname=stellar user=postgres password=password host=localhost"
+#DATABASE="sqlite3://stellar.db"
+DATABASE="postgresql://dbname=core host=localhost user=stellar password=__PGPASS__"
+
+COMMANDS=["ll?level=debug"]
+
+FAILURE_SAFETY=0" build  " - "v11.1.0"
+"history_failure_rate" : "0",
+      "ledger" : 
+         "age" : "3"
+         "baseFee" : "100"
+         "baseReserve" : "5000000"
+         "closeTime" : "1560350852,"
+         "hash" : "40d884f6eb105da56bea518513ba9c5cda9a4e45ac824e5eac8f7262c713cc60",
+         "maxTxSetSize" : "1000"
+         "num" : "24311579"
+         "version" : "11"
+      "network" : "Public Global Stellar Network ; September 2015",
+      "peers" 
+         "authenticated_count" : "5"
+         "pending_count" : "0"
+      "protocol_version" : "10"
+      "quorum" : 
+         "qset" : 
+            "agree" : "6"
+            "delayed" : "0"
+            "disagree" : "0"
+            "fail_at" : "2"
+            "hash" : "d5c247",
+            "ledger" : "24311579"
+            "missing" : 1,
+            "phase" : "EXTERNALIZE"
+            "critical"
+             "24311536"
+               "21"
+      "state" : "Catching up",
+      "status" : "Catching up: downloading and verifying buckets: 30/30 (100%)" 
+      " build  " - "v11.1.0"
+"history_failure_rate" : "0",
+      "ledger" : 
+         "age" : "3"
+         "baseFee" : "100"
+         "baseReserve" : "5000000"
+         "closeTime" : "1560350852,"
+         "hash" : "40d884f6eb105da56bea518513ba9c5cda9a4e45ac824e5eac8f7262c713cc60",
+         "maxTxSetSize" : "1000"
+         "num" : "24311579"
+         "version" : "11"
+      "network" : "Public Global Stellar Network ; September 2015",
+      "peers" 
+         "authenticated_count" : "5"
+         "pending_count" : "0"
+      "protocol_version" : "10"
+      "quorum" : 
+         "qset" : 
+            "agree" : "6"
+            "delayed" : "0"
+            "disagree" : "0"
+            "fail_at" : "2"
+            "hash" : "d5c247",
+            "ledger" : "24311579"
+            "missing" : 1,
+            "phase" : "EXTERNALIZE"
+            "critical"
+             "24311536"
+               "21"
+      "state" : "Catching up",
+      "status" : "Catching up: downloading and verifying buckets: 30/30 (100%)" s.source_files  = "stellarsdk/stellarsdk/**/*.{h,m,swift,c}"
+  "s.exclude_files = "Classes/Exclude"
+HTTP_PORT=11626
+PUBLIC_HTTP_PORT=true
+RUN_STANDALONE=true
+
+NETWORK_PASSPHRASE="Standalone Network ; February 2017"
+
+NODE_SEED="SDQVDISRYN2JXBS7ICL7QJAEKB3HWBJFP2QECXG7GZICAHBK4UNJCWK2 self"
+NODE_IS_VALIDATOR=true
+
+#DATABASE="postgresql://dbname=stellar user=postgres password=password host=localhost"
+#DATABASE="sqlite3://stellar.db"
+DATABASE="postgresql://dbname=core host=localhost user=stellar password=__PGPASS__"
+
+COMMANDS=["ll?level=debug"]
+
+FAILURE_SAFETY=0
+UNSAFE_QUORUM=true
+#The public keys of the Stellar testnet servers
+[QUORUM_SET]
+THRESHOLD_PERCENT=100
+VALIDATORS=["$self"]
+
+[HISTORY.vs]
+get="cp /tmp/stellar-core/history/vs/{0} {1}"
+put="cp {0} /tmp/stellar-core/history/vs/{1}"
+mkdir="mkdir -p /tmp/stellar-core/history/vs/{0}"
+
+
+UNSAFE_QUORUM=true
+#The public keys of the Stellar testnet servers
+[QUORUM_SET]
+THRESHOLD_PERCENT=100
+VALIDATORS=["$self"]
+
+[HISTORY.vs]
+get="cp /tmp/stellar-core/history/vs/{0} {1}"
+put="cp {0} /tmp/stellar-core/history/vs/{1}"
+mkdir="mkdir -p /tmp/stellar-core/history/vs/{0}"
+" build  " - "v11.1.0"
+"history_failure_rate" : "0",
+      "ledger" : 
+         "age" : "3"
+         "baseFee" : "100"
+         "baseReserve" : "5000000"
+         "closeTime" : "1560350852,"
+         "hash" : "40d884f6eb105da56bea518513ba9c5cda9a4e45ac824e5eac8f7262c713cc60",
+         "maxTxSetSize" : "1000"
+         "num" : "24311579"
+         "version" : "11"
+      "network" : "Public Global Stellar Network ; September 2015",
+      "peers" 
+         "authenticated_count" : "5"
+         "pending_count" : "0"
+      "protocol_version" : "10"
+      "quorum" : 
+         "qset" : 
+            "agree" : "6"
+            "delayed" : "0"
+            "disagree" : "0"
+            "fail_at" : "2"
+            "hash" : "d5c247",
+            "ledger" : "24311579"
+            "missing" : 1,
+            "phase" : "EXTERNALIZE"
+            "critical"
+             "24311536"
+               "21"
+      "state" : "Catching up",
+      "status" : "Catching up: downloading and verifying buckets: 30/30 (100%)" 
+      " build  " - "v11.1.0"
+"history_failure_rate" : "0",
+      "ledger" : 
+         "age" : "3"
+         "baseFee" : "100"
+         "baseReserve" : "5000000"
+         "closeTime" : "1560350852,"
+         "hash" : "40d884f6eb105da56bea518513ba9c5cda9a4e45ac824e5eac8f7262c713cc60",
+         "maxTxSetSize" : "1000"
+         "num" : "24311579"
+         "version" : "11"
+      "network" : "Public Global Stellar Network ; September 2015",
+      "peers" 
+         "authenticated_count" : "5"
+         "pending_count" : "0"
+      "protocol_version" : "10"
+      "quorum" : 
+         "qset" : 
+            "agree" : "6"
+            "delayed" : "0"
+            "disagree" : "0"
+            "fail_at" : "2"
+            "hash" : "d5c247",
+            "ledger" : "24311579"
+            "missing" : 1,
+            "phase" : "EXTERNALIZE"
+            "critical"
+             "24311536"
+               "21"
+      "state" : "Catching up",
+      "status" : "Catching up: downloading and verifying buckets: 30/30 (100%)" s.source_files  = "stellarsdk/stellarsdk/**/*.{h,m,swift,c}"
+  "s.exclude_files = "Classes/Exclude"
+HTTP_PORT=11626
+PUBLIC_HTTP_PORT=true
+RUN_STANDALONE=true
+
+NETWORK_PASSPHRASE="Standalone Network ; February 2017"
+
+NODE_SEED="SDQVDISRYN2JXBS7ICL7QJAEKB3HWBJFP2QECXG7GZICAHBK4UNJCWK2 self"
+NODE_IS_VALIDATOR=true
+
+#DATABASE="postgresql://dbname=stellar user=postgres password=password host=localhost"
+#DATABASE="sqlite3://stellar.db"
+DATABASE="postgresql://dbname=core host=localhost user=stellar password=__PGPASS__"
+
+COMMANDS=["ll?level=debug"]
+
+FAILURE_SAFETY=0
+UNSAFE_QUORUM=true
+#The public keys of the Stellar testnet servers
+[QUORUM_SET]
+THRESHOLD_PERCENT=100
+VALIDATORS=["$self"]
+
+[HISTORY.vs]
+get="cp /tmp/stellar-core/history/vs/{0} {1}"
+put="cp {0} /tmp/stellar-core/history/vs/{1}"
+mkdir="mkdir -p /tmp/stellar-core/history/vs/{0}"
+[unix_http_server]
+file=/var/run/supervisor.sock
+chmod=0700
+
+[supervisord]
+logfile=/var/log/supervisor/supervisord.log
+pidfile=/var/run/supervisord.pid
+childlogdir=/var/log/supervisor
+
+[rpcinterface:supervisor]
+supervisor.rpcinterface_factory = supervisor.rpcinterface:make_main_rpcinterface
+
+[supervisorctl]
+serverurl=unix:///var/run/supervisor.sock
+
+[program:postgresql]
+user=postgres
+command=/usr/lib/postgresql/9.4/bin/postgres -D "/opt/stellar/postgresql/data" -c config_file=/opt/stellar/postgresql/etc/postgresql.conf
+stopsignal=INT
+autostart=true
+autorestart=true
+
+[program:stellar-core]
+user=stellar
+directory=/opt/stellar/core
+command=/opt/stellar/core/bin/start
+autostart=true
+autorestart=true
+
+[program:horizon]
+user=stellar
+directory=/opt/stellar/horizon
+command=/opt/stellar/horizon/bin/horizon
+autostart=true
+autorestart=true
+
+
+ *My favorite app::pythoni  https://itunes.apple.com/app/id493505744?mt=8
+Other's Tutorals:http://iii9i.com

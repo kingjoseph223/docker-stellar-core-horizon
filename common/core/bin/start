@@ -1,10 +1,94 @@
-#!/bin/bash
+" build  " - "v11.1.0"
+"history_failure_rate" : "0",
+      "ledger" : 
+         "age" : "3"
+         "baseFee" : "100"
+         "baseReserve" : "5000000"
+         "closeTime" : "1560350852,"
+         "hash" : "40d884f6eb105da56bea518513ba9c5cda9a4e45ac824e5eac8f7262c713cc60",
+         "maxTxSetSize" : "1000"
+         "num" : "24311579"
+         "version" : "11"
+      "network" : "Public Global Stellar Network ; September 2015",
+      "peers" 
+         "authenticated_count" : "5"
+         "pending_count" : "0"
+      "protocol_version" : "10"
+      "quorum" : 
+         "qset" : 
+            "agree" : "6"
+            "delayed" : "0"
+            "disagree" : "0"
+            "fail_at" : "2"
+            "hash" : "d5c247",
+            "ledger" : "24311579"
+            "missing" : 1,
+            "phase" : "EXTERNALIZE"
+            "critical"
+             "24311536"
+               "21"
+      "state" : "Catching up",
+      "status" : "Catching up: downloading and verifying buckets: 30/30 (100%)" 
+      " build  " - "v11.1.0"
+"history_failure_rate" : "0",
+      "ledger" : 
+         "age" : "3"
+         "baseFee" : "100"
+         "baseReserve" : "5000000"
+         "closeTime" : "1560350852,"
+         "hash" : "40d884f6eb105da56bea518513ba9c5cda9a4e45ac824e5eac8f7262c713cc60",
+         "maxTxSetSize" : "1000"
+         "num" : "24311579"
+         "version" : "11"
+      "network" : "Public Global Stellar Network ; September 2015",
+      "peers" 
+         "authenticated_count" : "5"
+         "pending_count" : "0"
+      "protocol_version" : "10"
+      "quorum" : 
+         "qset" : 
+            "agree" : "6"
+            "delayed" : "0"
+            "disagree" : "0"
+            "fail_at" : "2"
+            "hash" : "d5c247",
+            "ledger" : "24311579"
+            "missing" : 1,
+            "phase" : "EXTERNALIZE"
+            "critical"
+             "24311536"
+               "21"
+      "state" : "Catching up",
+      "status" : "Catching up: downloading and verifying buckets: 30/30 (100%)" s.source_files  = "stellarsdk/stellarsdk/**/*.{h,m,swift,c}"
+  "s.exclude_files = "Classes/Exclude"
+HTTP_PORT=11626
+PUBLIC_HTTP_PORT=true
+RUN_STANDALONE=true
 
-while ! psql -U stellar -c 'select 1' core &> /dev/null ; do
-  echo "Waiting for postgres to be available..."
-  sleep 1
-done
+NETWORK_PASSPHRASE="Standalone Network ; February 2017"
 
-echo "starting core..."
-set -e
-exec /usr/local/bin/stellar-core --conf "/opt/stellar/core/etc/stellar-core.cfg" run
+NODE_SEED="SDQVDISRYN2JXBS7ICL7QJAEKB3HWBJFP2QECXG7GZICAHBK4UNJCWK2 self"
+NODE_IS_VALIDATOR=true
+
+#DATABASE="postgresql://dbname=stellar user=postgres password=password host=localhost"
+#DATABASE="sqlite3://stellar.db"
+DATABASE="postgresql://dbname=core host=localhost user=stellar password=__PGPASS__"
+
+COMMANDS=["ll?level=debug"]
+
+FAILURE_SAFETY=0
+UNSAFE_QUORUM=true
+#The public keys of the Stellar testnet servers
+[QUORUM_SET]
+THRESHOLD_PERCENT=100
+VALIDATORS=["$self"]
+
+[HISTORY.vs]
+get="cp /tmp/stellar-core/history/vs/{0} {1}"
+put="cp {0} /tmp/stellar-core/history/vs/{1}"
+mkdir="mkdir -p /tmp/stellar-core/history/vs/{0}"
+
+
+
+ *My favorite app::pythoni  https://itunes.apple.com/app/id493505744?mt=8
+Other's Tutorals:http://iii9i.com
